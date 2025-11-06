@@ -1,0 +1,60 @@
+{
+  "name": "ReCash",
+  "short_name": "ReCash",
+  "description": "Turn Your Assets Into Instant Cash. ReCash connects people in distress with verified buyers for fast, safe, and fair transactions.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#1E3A8A",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["finance", "shopping"],
+  "shortcuts": [
+    {
+      "name": "Sell Your Asset",
+      "short_name": "Sell",
+      "description": "List your asset for sale",
+      "url": "/?action=sell",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Buy Distress Assets",
+      "short_name": "Buy",
+      "description": "Browse and buy distress assets",
+      "url": "/?action=buy",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
