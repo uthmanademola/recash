@@ -37,7 +37,7 @@ export default function FinalCTA() {
                 asChild
               >
                 <a
-                  href="https://forms.google.com/recash-sell"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSfyv-HdUrTfN9abkeM75TBjUV5pbrPgxETffbC5ip5fAmiIVg/viewform?usp=header"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 justify-center"
@@ -54,7 +54,7 @@ export default function FinalCTA() {
                 className="border-2 border-primary text-primary hover:bg-primary/5 w-full sm:w-auto bg-transparent h-12"
                 asChild
               >
-                <a href="https://forms.google.com/recash-buy" target="_blank" rel="noopener noreferrer">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScXi0bre2maPx_j8QpyeO5W5vt4TR6unPMAC5tSRWOL1q4VGw/viewform?usp=header" target="_blank" rel="noopener noreferrer">
                    Buy Distress Assets
                 </a>
               </Button>
